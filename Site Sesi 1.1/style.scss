@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "mainBoldItalic";
+    src: url(./src/fonts/Poppins-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "extraBoldItalic";
+    src: url(./src/fonts/Poppins-ExtraBoldItalic.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PopMedium";
+    src: url(../src/fonts/Poppins-Medium.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "PopMedium";
+    width: 100%;
+}
+
+@import "./partials/clock";
+@import "./partials/colors";
+@import "./partials/header";
+@import "./partials/layout";
+@import "./partials/anuario";
+@import "./partials/_timeLine.scss";
+@import "./partials/_player.scss";
+
+a {
+    text-decoration-line: none;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+}
+
+.fixaCanto {
+    position: fixed;
+    bottom: 0;
+    /* distância do canto inferior */
+    right: 0;
+    /* distância do canto direito */
+    padding: 15px;
+    background-color: $primary-color;
+    color: white;
+    z-index: 99999;
+    border-radius: 15px 0 0 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: relative;
+    /* Define o posicionamento do símbolo */
+    font-weight: bold;
+    text-align: center;
+    img{
+        height: 30px;
+        width: 50px;
+        margin-right: 10px;
+    }
+  
+}
+
+.copyright-symbol {
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    /* Ajusto conforme necessário */
+}
+
+.icons {
+    position: fixed;
+    z-index: 9999;
+    bottom: 25px;
+    left: 25px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons a {
+    color: $primary-color;
+    transition: transform 0.3s ease, color 0.3s ease; /* Define a transição para o transform e color */
+}
+
+.icons a:hover {
+    color: #000;
+    transform: scale(1.3); /* Aumenta o ícone ao passar o mouse */
+}
+
+.space-icons {
+    background-color: $secondary-color;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 3.5px;
+}
+
+@media (max-width: 517px){
+    .icons {
+        width: 40px;
+        height: 150px;
+        bottom: 55px;
+        left: 5px;
+        flex-direction: column;
+        border-radius: 9px;
+    }
+
+    .space-icons {
+        width: 27px;
+        height: 27px;
+        padding-top: 3px;
+        border-radius: 8px;
+    }
+    
+    .fixaCanto{
+        width: 100%;
+        padding: 4px;
+        border-radius: 15px 15px 0 0 ;
+    }
+
+    .copyright-symbol {
+        font-size: 0;
+    }
+}
+
+@media (max-width: 190px){
+    .fixaCanto{
+        width: 100%;
+        padding: 4px;
+        border-radius: 15px 15px 0 0;
+
+        p{
+            font-size: 20px;
+        }
+        img{
+            max-width: 45px;
+            max-height: 25px;
+        }
+    }
+}
+
+@media (max-width: 165px){
+    .fixaCanto{
+        width: 100%;
+        padding: 4px;
+        border-radius: 15px 15px 0 0;
+
+        p{
+            font-size: 20px;
+        }
+        img{
+            max-width: 40px;
+            max-height: 20px;
+        }
+    }
+}
+

@@ -1,0 +1,75 @@
+#anuario {
+    display: flex;
+    flex-direction: column;
+    background-color: $secondary-color;
+    align-items: center;
+
+
+    img {
+        max-width: 150px;
+        margin: 30px;
+        border-radius: 15px;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.9);
+    }
+
+    div {
+        max-width: 100%;
+        // margin-top: 30px;
+        font-family: "mainBoldItalic";
+        color: $primary-color;
+    }
+
+    .imgs {
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .imgs img {
+        max-width: 150px;
+        margin: 30px;
+        border-radius: 15px;
+        transition: transform 0.3s ease;
+        /* Adiciona uma transição suave */
+    }
+
+    /* Efeito de aumento no hover */
+    .imgs img:hover {
+        transform: scale(1.3);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+    }
+}
+
+@media (max-width: 470px) {
+    #anuario {
+        img {
+            width: 100px;
+        }
+
+        .imgs img {
+            margin: 15px;
+        }
+
+        .imgs{
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 435px) {
+    #anuario {
+        img {
+            width: 100px;
+        }
+
+        .imgs img {
+            margin: 5px;
+        }
+
+        .imgs{
+            margin: 0;
+        }
+    }
+}

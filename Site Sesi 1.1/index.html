@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- <script>
+    document.getElementsByTagName("html")[0].className += " js";
+  </script> -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="shortcut icon" href="src/favIcon.ico" type="image/x-icon">
+  <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+  <script src="scripts/script.js" defer></script>
+  <title>Pagina inicial</title>
+</head>
+
+<body>
+  <div class="fixaCanto">
+    <div class="logo">
+      <img src="./src/logoDev.png" alt="">
+      <p>Dev Team</p><span class="copyright-symbol">®</span>
+    </div>
+  </div>
+
+  <div class="icons">
+    <div class="space-icons">
+      <a href="#bg-home" class="scroll-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock"
+          viewBox="0 0 16 16">
+          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+        </svg>
+      </a>
+    </div>
+    <div class="space-icons">
+      <a href="#timeLine" class="scroll-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar"
+          viewBox="0 0 16 16">
+          <path
+            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+        </svg>
+      </a>
+    </div>
+    <div class="space-icons">
+      <a href="#anuario" class="scroll-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera"
+          viewBox="0 0 16 16">
+          <path
+            d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z" />
+          <path
+            d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
+        </svg>
+      </a>
+    </div>
+    <div class="space-icons">
+      <a href="#location" class="scroll-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill"
+          viewBox="0 0 16 16">
+          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- MODAL -->
+  <div class="modal" style="display: none;">
+    <div>
+      <h1>Janeiro 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+
+    <div>
+      <h1>Fevereiro 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+
+    <div>
+      <h1>Março 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+
+    <div>
+      <h1>Abril 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+
+    <div>
+      <h1>Maio 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+
+    <div>
+      <h1>Junho 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+
+    <div>
+      <h1>Julho 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+
+    <div>
+      <h1>Agosto 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+
+    <div>
+      <h1>Setembro 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+
+    <div>
+      <h1>Outubro 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+
+    <div>
+      <h1>Novembro 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+    <div>
+      <h1>Dezembro 2024</h1>
+
+      <div class="modal-content">
+        <img src="src/imagemTurma.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam molestiae, consequatur molestias ut
+          fugiat ullam aut eos? Rem accusamus a suscipit provident veritatis autem distinctio doloribus quae, aspernatur
+          quia.</p>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL END -->
+
+    <!-- HEADER -->
+    <header id="bg-home" class="header-content">
+      <div id="logo">
+        <img src="./src/logo3A.png" alt="Logo Do Terceiro A">
+      </div>
+      <div class="header-icons">
+        <a href="#timeLine" class="scroll-link">Linha do Tempo</a>
+        <a href="#anuario" class="scroll-link">Anuário</a>
+        <a href="#location" class="scroll-link">Localização</a>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN -->
+    <main>
+      <div class="countdown-container">
+        <h1>Contagem Regressiva para a forma!</h1>
+        <div id="countdown">
+          <div class="time-block">
+            <span id="days">00</span>
+            <p>Dias</p>
+          </div>
+          <div class="time-block">
+            <span id="hours">00</span>
+            <p>Horas</p>
+          </div>
+          <div class="time-block">
+            <span id="minutes">00</span>
+            <p>Minutos</p>
+          </div>
+          <div class="time-block">
+            <span id="seconds">00</span>
+            <p>Segundos</p>
+          </div>
+        </div>
+        <p id="message"></p>
+      </div>
+      <div class="overlay"></div>
+    </main>
+    <!-- MAIN END -->
+
+    <!-- LINHA DO TEMPO DO GABRIEL -->
+    <section class="mainLine" id="timeLine">
+      <h3 class="headingLine">TimeLine</h3>
+      <div class="containerLine">
+        <ul>
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+            <button class="read-more"><b>Read More ></b></button>
+            <span class="circleLine"></span>
+            <span class="dateLine">Janeiro 2025</span>
+          </li>
+
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+            <button class="read-more" href=""><b>Read More ></b></button>
+            <span class="circleLine"></span>
+            <span class="dateLine">Fevereiro 2025</span>
+          </li>
+
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+            <button class="read-more" href=""><b>Read More ></b></button>
+            <span class="circleLine"></span>
+            <span class="dateLine">Março 2025</span>
+          </li>
+
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+            <button class="read-more" href=""><b>Read More ></b></button>
+            <span class="circleLine"></span>
+            <span class="dateLine">Abril 2025</span>
+          </li>
+
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+            <button class="read-more" href=""><b>Read More ></b></button>
+            <span class="circleLine"></span>
+            <span class="dateLine">Maio 2025</span>
+          </li>
+
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+            <button class="read-more" href=""><b>Read More ></b></button>
+            <span class="circleLine"></span>
+            <span class="dateLine">Junho 2025</span>
+          </li>
+
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+            <button class="read-more" href=""><b>Read More ></b></button>
+            <span class="circleLine"></span>
+            <span class="dateLine">Julho 2025</span>
+          </li>
+
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+            <button class="read-more" href=""><b>Read More ></b></button>
+            <span class="circleLine"></span>
+            <span class="dateLine">Agosto 2025</span>
+          </li>
+
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+            <button class="read-more" href=""><b>Read More ></b></button>
+            <span class="circleLine"></span>
+            <span class="dateLine">Setembro 2025</span>
+          </li>
+
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+            <button class="read-more" href=""><b>Read More ></b></button>
+            <span class="circleLine"></span>
+            <span class="dateLine">Outubro 2025</span>
+          </li>
+
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+            <button class="read-more" href=""><b>Read More ></b></button>
+            <span class="circleLine"></span>
+            <span class="dateLine">Novembro 2025</span>
+          </li>
+
+          <li>
+            <h3 class="titleLine">FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, corrupti aliquam molestias minima
+              repellendus obcaecati.</p>
+              <button class="read-more" href=""><b>Read More ></b></button>
+              <span class="circleLine"></span>
+              <span class="dateLine">Dezembro 2025</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <section id="anuario">
+        <div>
+          <h1>Anuário da sala:</h1>
+        </div>
+
+
+        <div class="containerMusic">
+        <div class="playerMusic">
+            <div class="logoMusic">
+                <i class="bx bx-music"></i>
+            </div>
+    
+            <span id="musicName"></span>
+    
+            <audio src="" id="playerMusic"></audio>
+    
+            <div class="controlsMusic">
+                <button id="prevButton"><i class="bx bx-skip-previous"></i></button>
+                <button id="playPauseButton"><i class="bx bx-caret-right"></i></button>
+                <button id="nextButton"><i class="bx bx-skip-next"></i></button>
+            </div>
+    
+            <div class="footerMusic">
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            
+    
+                <div class="timeMusic">
+                    <span id="currentTime">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div class="imgs">
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+        <img src="./src/polaroid.jpeg" alt="Foto polaroid" />
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section id="location">
+      <h1>Localização</h1>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.698821426303!2d-47.47143612502305!3d-23.507355259609696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58aeaa2555c8d%3A0x9a73912099883b51!2sSesi%20123%20Centro%20Educacional!5e0!3m2!1spt-BR!2sbr!4v1731095249092!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- LOCATION END -->
+    
+</body>
+
+<script src="./scripts/links.js" defer></script>
+<script src="./scripts/clock.js" defer></script>
+<script type="module" src="./scripts/player.js" defer></script>
+</html>
